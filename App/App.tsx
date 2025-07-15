@@ -26,3 +26,7 @@ const styles = StyleSheet.create({
 });
 
 export default App;
+
+// Object.freeze(Object.prototype);
+// const object = {};
+// object.constructor = function () {}; // throws

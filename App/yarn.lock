@@ -1915,6 +1915,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@lavamoat/react-native-lockdown@npm:^0.0.2":
+  version: 0.0.2
+  resolution: "@lavamoat/react-native-lockdown@npm:0.0.2"
+  peerDependencies:
+    "@react-native/js-polyfills": "*"
+  checksum: 10c0/0a86043e6194ece4d057fa7865149d202c0fdab5fa1a601fe0fca57574a847eec368e438148a6be4bd7146519b0b5b1cd70f71f9840da3c268ba89e716b57354
+  languageName: node
+  linkType: hard
+
 "@nicolo-ribaudo/eslint-scope-5-internals@npm:5.1.1-v1":
   version: 5.1.1-v1
   resolution: "@nicolo-ribaudo/eslint-scope-5-internals@npm:5.1.1-v1"
@@ -2901,6 +2910,7 @@ __metadata:
     "@babel/runtime": "npm:^7.25.0"
     "@lavamoat/allow-scripts": "npm:^3.3.4"
     "@lavamoat/preinstall-always-fail": "npm:^2.1.1"
+    "@lavamoat/react-native-lockdown": "npm:^0.0.2"
     "@react-native-community/cli": "npm:19.0.0"
     "@react-native-community/cli-platform-android": "npm:19.0.0"
     "@react-native-community/cli-platform-ios": "npm:19.0.0"

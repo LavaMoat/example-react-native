@@ -19,6 +19,7 @@
     "bundle:android:prod:assets2": "react-native bundle --reset-cache --platform android --dev false --entry-file index.js --bundle-output android/app/build/ASSETS/createBundleReleaseJsAndAssets/index.android.bundle --sourcemap-output android/app/build/ASSETS/createBundleReleaseJsAndAssets/index.android.bundle.map --assets-dest android/app/src/main/res/"
   },
   "dependencies": {
+    "@lavamoat/react-native-lockdown": "^0.0.2",
     "@react-native/new-app-screen": "0.80.1",
     "react": "19.1.0",
     "react-native": "0.80.1"
