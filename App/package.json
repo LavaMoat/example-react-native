@@ -18,14 +18,15 @@
     "bundle:android:prod:assets2": "react-native bundle --reset-cache --platform android --dev false --entry-file index.js --bundle-output android/app/build/ASSETS/createBundleReleaseJsAndAssets/index.android.bundle --sourcemap-output android/app/build/ASSETS/createBundleReleaseJsAndAssets/index.android.bundle.map --assets-dest android/app/src/main/res/"
   },
   "dependencies": {
+    "@react-native/new-app-screen": "0.80.1",
     "react": "19.1.0",
-    "react-native": "0.80.1",
-    "@react-native/new-app-screen": "0.80.1"
+    "react-native": "0.80.1"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
     "@babel/preset-env": "^7.25.3",
     "@babel/runtime": "^7.25.0",
+    "@lavamoat/allow-scripts": "^3.3.4",
     "@react-native-community/cli": "19.0.0",
     "@react-native-community/cli-platform-android": "19.0.0",
     "@react-native-community/cli-platform-ios": "19.0.0",
@@ -44,5 +45,6 @@
   },
   "engines": {
     "node": ">=18"
-  }
+  },
+  "packageManager": "yarn@1.22.22+sha256.c17d3797fb9a9115bf375e31bfd30058cac6bc9c3b8807a3d8cb2094794b51ca"
 }
