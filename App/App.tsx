@@ -7,6 +7,7 @@
 
 import { NewAppScreen } from '@react-native/new-app-screen';
 import { StatusBar, StyleSheet, useColorScheme, View } from 'react-native';
+import './src/issues.js'
 
 function App() {
   const isDarkMode = useColorScheme() === 'dark';
